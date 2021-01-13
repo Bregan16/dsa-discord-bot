@@ -13,4 +13,4 @@
 ## Start Bot: nodemon index.js
 
 ### Skills
-## tbd.
+## TBD.

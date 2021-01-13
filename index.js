@@ -1,6 +1,7 @@
+require('dotenv').config()
+
 const Discord = require("discord.js");
 
-const config = require("./config.json");
 const dsaBasic = require("./dsa-basics.json");
 
 const roharian = require("./user/roharian.json");
@@ -73,4 +74,4 @@ const getFertigkeitsWert = (talent) => {
   return activeUser.talente[talent];
 }
 
-client.login(config.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);

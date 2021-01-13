@@ -1,4 +1,4 @@
-** Create Discord Bot
+* * Create Discord Bot
 * More infos: https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js-de
 
 ** Installation

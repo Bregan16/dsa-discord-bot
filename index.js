@@ -51,16 +51,16 @@ client.on("message", function(message) {
 
 const getUser = (author) => {
   const username = author.username;
-  if (username === "Sindbad") {
+  if (username === process.env.roharian) {
     return roharian;
   }
-  if (username === "Ram_Python") {
+  if (username === process.env.trom) {
     return trom;
   }
-  if (username === "Elijandra") {
+  if (username === process.env.yalinka) {
     return yalinka;
   }
-  if (username === "Starlite") {
+  if (username === process.env.bogdan) {
     return bogdan;
   }
   return null;

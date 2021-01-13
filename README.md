@@ -1,11 +1,16 @@
-** Create Discord Bot
-* More infos: https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js-de
+# DSA Discord Bot
 
-** Installation
-* npm Installation
+## Create Discord Bot
+### More infos: https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js-de
 
-** Prepare
-* Rename _.env into .env and replace your-bot-token with your Discord Bot Token
+## Installation
+### npm Installation
 
-** Start Bot
-* Start Bot: nodemon index.js
+### Prepare
+## Rename _.env into .env and replace your-bot-token with your Discord Bot Token
+
+### Start Bot
+## Start Bot: nodemon index.js
+
+### Skills
+## tbd.

@@ -6,11 +6,11 @@
 ## Installation
 ### npm Installation
 
-### Prepare
-## Rename _.env into .env and replace your-bot-token with your Discord Bot Token
+## Prepare
+### Rename _.env into .env and replace your-bot-token with your Discord Bot Token
 
-### Start Bot
-## Start Bot: nodemon index.js
+## Start Bot
+### Start Bot: nodemon index.js
 
-### Skills
-## TBD.
+## Skills
+### TBD.

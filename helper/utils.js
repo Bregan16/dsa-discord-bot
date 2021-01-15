@@ -1,4 +1,4 @@
-const dsaBasic = require("./../dsa-basics.json");
+const dsaBasic = require("./dsa-basics.json");
 
 const replyText = (message, text) => {
   message.reply(text);

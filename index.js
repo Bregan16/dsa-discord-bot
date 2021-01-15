@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const Discord = require("discord.js");
 
-const dsaBasic = require("./dsa-basics.json");
+const dsaBasic = require("./helper/dsa-basics.json");
 
 const roharian = require("./user/roharian.json");
 const trom = require("./user/trom.json");

@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const dsaBasic = require("./../dsa-basics.json");
+const dsaBasic = require("./dsa-basics.json");
 
 const getEigenschaften = (message, activeUser) => {
   const eigenschaftenNamen = getEigenschaftenNamen();

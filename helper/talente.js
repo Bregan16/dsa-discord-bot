@@ -1,4 +1,4 @@
-const dsaBasic = require("./../dsa-basics.json");
+const dsaBasic = require("./dsa-basics.json");
 
 const talentProbe = (talent, eigenschaften, fertigkeitsWert) => {
   console.log('#### getTalent', talent, eigenschaften, fertigkeitsWert);
@@ -14,7 +14,7 @@ const talentProbe = (talent, eigenschaften, fertigkeitsWert) => {
     } else if (qualiStufe === -99) {
       return `ist bei der ${talent} Probe ein Patzer unterlaufen! (${rolls})`;
     } else {
-      return `hat die Probe in ${talent} mit Qualitätsstufe ${ qualiStufe } bestanden! (${rolls})`;
+      return ` hat die Probe in ${talent} mit Qualitätsstufe ${ qualiStufe } bestanden! (${rolls})`;
     }
 };
 

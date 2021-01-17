@@ -54,6 +54,7 @@ const getUser = (author) => {
   if (username === process.env.roharian) {
     return roharian;
   }
+  /*
   if (username === process.env.trom) {
     return trom;
   }
@@ -63,6 +64,7 @@ const getUser = (author) => {
   if (username === process.env.bogdan) {
     return bogdan;
   }
+  */
   return null;
 }
 
